@@ -341,8 +341,8 @@ nav ul li a.active::after {
   background-color: #f9b233;
   color: #000;
   border: none;
-  padding: 12px 28px;
-  font-size: 1rem;
+  padding: 4px 16px; /* Smaller padding */
+  font-size: 0.3rem;
   border-radius: 30px;
   cursor: pointer;
   transition: 0.3s ease;
@@ -380,7 +380,7 @@ nav ul li a.active::after {
   }
 
   .btn1 {
-    padding: 10px 24px;
+    padding: 8px 24px;
     font-size: 0.95rem;
   }
 
