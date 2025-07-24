@@ -686,7 +686,7 @@ nav ul li a.active::after {
 .skills-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 40px 60px;
+  gap: 42px 60px;
 }
 
 .skill {
@@ -702,10 +702,32 @@ nav ul li a.active::after {
   font-weight: 600;
   color: white;
 }
+@media (max-width: 768px) {
+  .skill-header span {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .skill-header span {
+    font-size: 14px;
+  }
+}
 
 .percentage {
   font-weight: 400;
   font-size: 16px;
+}
+@media (max-width: 768px) {
+  .percentage {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .percentage {
+    font-size: 14px;
+  }
 }
 
 .progress-bar {
@@ -834,8 +856,9 @@ nav ul li a.active::after {
   padding-bottom: 20px;
 }
 .s6 h2{
-  font-size: 2.7rem;
+  font-size: 2.5rem;
   color: #f8b52e;
+  /* letter-spacing: normal; */
 }
 /* Animattion */
 @keyframes fadeInUp {
@@ -998,14 +1021,34 @@ nav ul li a.active::after {
   background-color: #f9b233;
   color: #000;
   border: none;
-  padding: 2px 12px;     /* smaller padding */
-  font-size: 0.25rem;    /* smaller text */
-  border-radius: 20px;   /* less rounded if desired */
+  padding: 15px 22px;
+  font-size: 0.75rem;
+  border-radius: 20px;
   cursor: pointer;
   transition: 0.3s ease;
+
 }
 
+/* Hover Effect */
 .btn1:hover,
 .bntq:hover {
   background-color: #e5a42c;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .btn1, .bntq {
+    margin-top: 30px;
+    padding: 12px 18px;
+    font-size: 0.7rem;
+    border-radius: 18px;
+  }
+}
+
+@media (max-width: 480px) {
+  .btn1, .bntq {
+    padding: 10px 15px;
+    font-size: 0.65rem;
+    border-radius: 15px;
+  }
 }
