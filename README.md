@@ -9,12 +9,12 @@ A modern, responsive personal portfolio website to showcase my skills, projects,
 
 ## ✨ Features
 
-- 🔹 Clean and responsive design
-- 🔹 About Me section with professional bio
-- 🔹 Skills and technologies overview
-- 🔹 Projects gallery with screenshots
-- 🔹 Downloadable Resume (CV)
-- 🔹 social links
+-  Clean and responsive design
+-  About Me section with professional bio
+-  Skills and technologies overview
+-  Projects gallery with screenshots
+-  Downloadable Resume (CV)
+-  social links
 
 ---
 
