@@ -993,3 +993,19 @@ nav ul li a.active::after {
     font-size: 13px;
   }
 }
+
+.btn1, .bntq {
+  background-color: #f9b233;
+  color: #000;
+  border: none;
+  padding: 2px 12px;     /* smaller padding */
+  font-size: 0.25rem;    /* smaller text */
+  border-radius: 20px;   /* less rounded if desired */
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.btn1:hover,
+.bntq:hover {
+  background-color: #e5a42c;
+}
