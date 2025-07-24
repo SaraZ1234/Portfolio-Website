@@ -16,13 +16,12 @@ A modern, responsive personal portfolio website to showcase my skills, projects,
 -  Downloadable Resume (CV)
 -  social links
 
----
 
 ## 🛠️ Built With
 
 - HTML5, CSS3  
 - JavaScript  
 
----
+
 
 
